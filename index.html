@@ -1,58 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sumit</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Signika+Negative:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav>
-        <div class="nav container">
-            <div class="left-nav">
-                <div class="logo">Sumit</div>
-            </div>
-            <div class="right-nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+      <div class="nav container">
+        <div class="left-nav">
+          <div class="logo">Sumit</div>
         </div>
+        <div class="right-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
-
+    <div style="width: 100%; height: 4rem;"></div>
 
     <!-- -----------Hero section------------ -->
     <div class="background"></div>
     <canvas id="canvas"></canvas>
     <header class="content">
-        <div class="container hero-section">
-            <div class="hero-left-content">
-                <p>My Name</p>
-                <h2><span>Sumit</span> Bhardwaj</h2>
-                <h1>I'M A <span>Web Devloper</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusantium quae voluptatibus labore distinctio asperiores doloremque, iusto sequi et eius, quam recusandae eaque suscipit dolorem, tenetur maiores sapiente ipsa excepturi.</p>
-                <div class="btns">
-                    <a href="#" class="btn btn-white">HIRE ME</a>
-                    <a href="#" class="btn btn-orange">LEARN MORE</a>
-                </div>
-            </div>
-            <div class="hero-right-content">
-                <img src="images/main-logo.png" alt="main-logo">
-            </div>
+      <div class="container image-content-section">
+        <div class="hero-left-content">
+          <p>My Name</p>
+          <h2><span>Sumit</span> Bhardwaj</h2>
+          <h1>I'M A <span>Web Devloper</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            accusantium quae voluptatibus labore distinctio asperiores
+            doloremque, iusto sequi et eius, quam recusandae eaque suscipit
+            dolorem, tenetur maiores sapiente ipsa excepturi.
+          </p>
+          <div class="btns">
+            <a href="#" class="btn btn-white">HIRE ME</a>
+            <a href="#" class="btn btn-orange">LEARN MORE</a>
+          </div>
         </div>
+        <div class="hero-right-content">
+          <img src="images/main-logo.png" alt="main-logo" />
+        </div>
+      </div>
     </header>
 
+    <!-- ----------------------about me----------------------- -->
+
+    <section class="section1">
+      <div id="about" class="container image-content-section about-me">
+        <div class="about-me-image">
+          <img src="images/about-me.jpg" alt="" />
+        </div>
+
+        <div class="about-me-content">
+          <h1>About Me</h1>
+          <h2><span>Sumit Bhardwaj - Programmer</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+            tempora maxime labore iste magni corporis incidunt provident,
+            pariatur libero at molestiae ut eum nobis iure, totam sapiente
+            inventore optio vitae?
+          </p>
+          <ul class="about-links">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/its_sumit_bhardwaj_007/" target="_blank "><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://github.com/Azeebcoder" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- -----------------------skills------------------------------- -->
+
+    <section class="section2">
+      <div id="skills" class="container skills">
+        <div class="skills-heading">
+          <i class="fa-solid fa-user"></i>
+          <h1>My Skills</h1>
+        </div>
+        <div class="skill-boxes">
+          <div class="skill-box">
+            <img src="images/c.png" alt="c logo">
+            <h2>C language</h2>
+          </div>
+          <div class="skill-box">
+            <img src="images/cpp.png" alt="c logo">
+            <h2>C++ language</h2>
+          </div>
+          <div class="skill-box">
+            <img src="images/python.png" alt="c logo">
+            <h2>Python language</h2>
+          </div>
+          <div class="skill-box">
+            <img src="images/html.png" alt="c logo">
+            <h2>HTML</h2>
+          </div>
+          <div class="skill-box">
+            <img src="images/css.png" alt="c logo">
+            <h2>CSS</h2>
+          </div>
+          <div class="skill-box">
+            <img src="images/js.png" alt="c logo">
+            <h2>JavaScript</h2>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

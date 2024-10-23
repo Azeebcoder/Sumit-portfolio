@@ -5,14 +5,17 @@
 }
 
 :root{
-    --text-hover-color : #9806a5;
+    --text-hover-color : #ef233c;
     --background-color : #0d1b2a;
     --background-light-dark-color : #1b263b;
+    --section-color : #14213d;
     --text-color : #e0e1dd;
     --white-color : white;
+    --text-hover-color-dark : #7c0715; 
+    --black-color : black;
 
-    --glow-effect : rgba(152, 6, 165, .6);
-    --glow-effect-hover : rgba(152, 6, 165, 1);
+    --glow-effect : rgba(239, 35, 60, .6);
+    --glow-effect-hover : rgba(239, 35, 60, 1);
 
 }
 
@@ -21,6 +24,7 @@ body, html {
     color: var(--text-color);
     font-family: "Signika Negative", sans-serif;
     font-optical-sizing: auto;
+    scroll-behavior: smooth;
    
 }
 
@@ -37,6 +41,23 @@ span{
     color: var(--text-hover-color);
 }
 
+h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--white-color);
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: var(--white-color);
+}
+
+p{
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 200;
+}
 /* -------------------common classes------------------ */
 
 .container{
@@ -44,13 +65,31 @@ span{
     margin: auto;
 }
 
+.section1{
+    padding:6rem 0;
+    width: 100%;
+    background-color: var(--section-color);
+}
+
+.section2{
+    padding: 6rem 0;
+    width: 100%;
+    background-color: var(--background-light-dark-color);
+}
+
 /* -----------------navbar--------------- */
 
 nav{
     background-color: var(--background-color);
     display: flex;
+    overflow: hidden;
     align-items: center;
     min-height: 4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10; 
+    box-shadow: 0 3px 20px 4px rgba(0, 0, 0, 0.541);
 }
 
 .nav{
@@ -133,15 +172,15 @@ nav{
     z-index: -1;
 }
 
+
 /* ------------------hero section------------------ */
 .content {
-    position: absolute;
     z-index: 1;
     width: 100%;
     height: 90%;
 }
 
-.hero-section{
+.image-content-section{
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -159,22 +198,6 @@ nav{
     /* background-color: red */
 }
 
-.hero-left-content p{
-    color: var(--white-color);
-    font-size: 16px;
-    font-weight: 200;
-}
-
-.hero-left-content h2{
-    font-size: 30px;
-    font-weight: 900;
-    color: var(--white-color);
-}
-.hero-left-content h1{
-    font-size: 45px;
-    font-weight: 900;
-    color: var(--white-color);
-}
 
 .btns{
     width: 45%;
@@ -229,4 +252,119 @@ nav{
 .hero-right-content img:hover{
     filter: drop-shadow(0 0 0 var(--text-hover-color)) drop-shadow(0 0 8px var(--white-color));
 
+}
+
+/* -------------------about me--------------------- */
+
+.about-me{
+    padding:5rem;
+    height: auto;
+}
+
+.about-me-image{
+    width: 30%;
+}
+
+.about-me-image img{
+    width: 100%;
+    box-shadow: 26px 26px 5px 0px var(--text-hover-color-dark);
+    border-radius: .3rem;
+}
+
+.about-me-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items:start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 1.3rem;
+}
+
+.about-links{
+    display: flex;
+    font-size: 1.9rem;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 40%;
+}
+
+
+.about-links li a i{
+    color: var(--white-color);
+    transition: all .3s;
+    padding: 6px;
+}
+
+.about-links li a i:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-facebook:hover{
+    color: rgb(51, 51, 224);
+}
+
+.fa-instagram:hover{
+    color: rgb(211, 32, 62);
+}
+
+.fa-github:hover{
+    color: rgb(27, 24, 24);
+}
+
+.fa-x-twitter:hover{
+    color: black;
+}
+
+/* --------------------------------skills------------------------------- */
+
+.skills-heading{
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.skills{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 5rem;
+}
+
+.skill-boxes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 4rem;
+}
+
+.skill-box{
+    width: 80%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    justify-self: center;
+    align-self: center;
+    padding: 3rem 0;
+    border: 1px solid var(--white-color);
+    border-radius:1rem ;
+    transition: all .4s;
+}
+
+.skill-box:hover{
+    transform: translateY(-10px);
+    background-color: var(--text-hover-color);
+    box-shadow: 0 0 20px 10px var(--black-color);
+}
+
+.skill-box img{
+    width: 20%;
 }
