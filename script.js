@@ -82,3 +82,28 @@ function animate() {
 
 createCircles();
 animate();
+
+
+
+// Select the about section
+const Sections = document.querySelectorAll('.animation');
+
+// Create the Intersection Observer
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Add the 'in-view' class when the element is in the viewport
+            entry.target.classList.add('animation-in-view');
+        } else {
+            // Remove the 'in-view' class only when the element is completely out of the viewport
+            if (entry.boundingClientRect.top > window.innerHeight || entry.boundingClientRect.bottom < 0) {
+                entry.target.classList.remove('animation-in-view');
+            }
+        }
+    });
+}, {
+    threshold: 0 // Trigger as soon as any part of the section is in the viewport
+});
+Sections.forEach(section => {
+    observer.observe(section);
+});
