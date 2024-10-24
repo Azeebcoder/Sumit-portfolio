@@ -21,12 +21,25 @@
 body,
 html {
     height: 100%;
+    overflow-x: hidden;
     color: var(--text-color);
     font-family: "Signika Negative", sans-serif;
     font-optical-sizing: auto;
     scroll-behavior: smooth;
 
 }
+body::-webkit-scrollbar {
+    width: 4px;
+}
+body::-webkit-scrollbar-track {
+    background:  transparent; 
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 3px solid var(--text-decoration-2);
+}
+
 a {
     text-decoration: none;
     color: var(--text-color);
@@ -99,6 +112,7 @@ label{
     display: flex;
     font-size: 3rem;
     align-items: center;
+    justify-content: center;
     column-gap: 2rem;
 }
 .set-items-colums {
@@ -107,12 +121,18 @@ label{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    row-gap: 5rem;
+    row-gap: 4rem;
 }
 
 .in-view {
     opacity: 1; /* Fade in */
     transform: translateY(0); /* Slide up */
+}
+.boxes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
 }
 /* -----------------navbar--------------- */
 
@@ -331,12 +351,6 @@ nav {
 
 /* --------------------------------skills------------------------------- */
 
-.skill-boxes {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 4rem;
-}
 .skill-box {
     width: 80%;
     display: flex;
@@ -346,7 +360,7 @@ nav {
     row-gap: 1rem;
     justify-self: center;
     align-self: center;
-    padding: 3rem 0;
+    padding: 1rem 0;
     border: 1px solid var(--white-color);
     border-radius: 1rem;
     transition: all .4s;
@@ -361,6 +375,13 @@ nav {
 }
 
 /* ---------------------------------------Education------------------------------- */
+.education-heading{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    align-items: center;
+}
 
 .education-boxes{
     width: 100%;
@@ -399,4 +420,61 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     row-gap: .7rem;
+}
+
+/* ----------------------------------------------projects-------------------------------------------- */
+
+.project-box{
+    width: 90%;
+    padding: 0;
+    border: none;
+}
+
+.background-image{
+    width: 100%;
+    background-image: url('images/tic-tac-toe.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: .4rem;
+    height: auto;
+}
+.project-content{
+    width: 100%;
+    padding-top: 7rem;
+    
+    overflow: hidden;
+}
+.project-box-content{
+    background-color: var(--background-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    opacity: 1;
+    transform: translateY(13.1rem);
+    transition: .3s;
+}
+.project-content:hover .project-box-content{
+    transform: translateY(0rem);
+}
+.project-box-content h2{
+    padding: 1rem 0;
+    width: 100%;
+    background-color: var(--text-decoration);
+}
+.project-box-content p{
+    max-width: 90%;
+    text-align: left;
+}
+.projects-btn{
+    display: flex;
+    justify-content: space-between;
+    min-width: 80%;
+}
+.projects-btn a{
+    background-color: var(--white-color);
+    color: var(--background-light-dark-color);
 }

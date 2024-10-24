@@ -1,20 +1,27 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
 let circles = [];
-const circleCount = 60; // Increased count for more circles
+const circleCount = 70;
+
+// Resize canvas to match its parent container dimensions
+function resizeCanvas() {
+    const parent = canvas.parentElement;
+    canvas.width = parent.clientWidth;
+    canvas.height = parent.clientHeight;
+}
+
+resizeCanvas(); // Call once on initial load
+window.addEventListener('resize', resizeCanvas);
 
 function createCircles() {
     for (let i = 0; i < circleCount; i++) {
         circles.push({
             x: Math.random() * canvas.width,
             y: Math.random() * canvas.height,
-            radius: Math.random() * 5 + 0, // Small circles
+            radius: Math.random() * 5 + 2, // Set a minimum radius to ensure visibility
             angle: Math.random() * Math.PI * 2,
-            speed: Math.random() * 0.5 + .7, // Speed of movement
+            speed: Math.random() * 1 + 0.5, // Adjust speed for better movement
             creationTime: Date.now() // Track creation time
         });
     }
@@ -24,7 +31,6 @@ function drawCircles() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     circles.forEach(circle => {
-        // Calculate elapsed time and determine alpha for fade-in
         const elapsed = Date.now() - circle.creationTime;
         const alpha = Math.min(elapsed / 2000, 1); // Fade-in over 2 seconds
 
@@ -33,16 +39,25 @@ function drawCircles() {
         ctx.fillStyle = `rgba(224, 225, 221, ${alpha * 0.5})`; // Apply alpha
         ctx.fill();
 
-        // Update position for movement
+        // Update position based on angle and speed
         circle.x += Math.cos(circle.angle) * circle.speed;
         circle.y += Math.sin(circle.angle) * circle.speed;
 
-        // Reset position if circles go off canvas
-        if (circle.x > canvas.width || circle.x < 0 || circle.y > canvas.height || circle.y < 0) {
-            circle.x = Math.random() * canvas.width;
-            circle.y = Math.random() * canvas.height;
-            circle.angle = Math.random() * Math.PI * 2; // Randomize angle on reset
-            circle.creationTime = Date.now(); // Reset creation time
+        // Reset position if circles go off canvas (considering radius)
+        if (circle.x + circle.radius > canvas.width) {
+            circle.x = canvas.width - circle.radius; // Move back inside
+            circle.angle = Math.PI - circle.angle; // Reverse direction
+        } else if (circle.x - circle.radius < 0) {
+            circle.x = circle.radius; // Move back inside
+            circle.angle = Math.PI - circle.angle; // Reverse direction
+        }
+
+        if (circle.y + circle.radius > canvas.height) {
+            circle.y = canvas.height - circle.radius; // Move back inside
+            circle.angle = -circle.angle; // Reverse direction
+        } else if (circle.y - circle.radius < 0) {
+            circle.y = circle.radius; // Move back inside
+            circle.angle = -circle.angle; // Reverse direction
         }
     });
 
@@ -55,14 +70,12 @@ function connectCircles() {
     for (let i = 0; i < circles.length; i++) {
         for (let j = i + 1; j < circles.length; j++) {
             const dist = Math.hypot(circles[i].x - circles[j].x, circles[i].y - circles[j].y);
-            const elapsedI = Date.now() - circles[i].creationTime;
-            const elapsedJ = Date.now() - circles[j].creationTime;
-            const alphaI = Math.min(elapsedI / 2000, 1); // Circle 1 fade-in
-            const alphaJ = Math.min(elapsedJ / 2000, 1); // Circle 2 fade-in
+            const alphaI = Math.min((Date.now() - circles[i].creationTime) / 2000, 1);
+            const alphaJ = Math.min((Date.now() - circles[j].creationTime) / 2000, 1);
             const minAlpha = Math.min(alphaI, alphaJ);
 
             // Control line alpha based on distance
-            const lineAlpha = (dist < 110) ? minAlpha * 0.5 : 0; // Apply alpha only if within distance
+            const lineAlpha = (dist < 110) ? minAlpha * 0.5 : 0;
 
             if (lineAlpha > 0) {
                 ctx.strokeStyle = `rgba(224, 225, 221, ${lineAlpha})`; // Apply line alpha
@@ -82,6 +95,8 @@ function animate() {
 
 createCircles();
 animate();
+
+
 
 
 
