@@ -32,7 +32,7 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -41,14 +41,13 @@
 
     <!-- -----------Hero section------------ -->
     <div class="background"></div>
-    <canvas id="canvas">
-    </canvas>
+    <canvas id="canvas"></canvas>
     <header class="content">
       <div class="container image-content-section">
         <div class="hero-left-content">
           <p>My Name</p>
           <h2><span>Sumit</span> Bhardwaj</h2>
-          <h1 class="animation animation-right">I'M A <span>Web Devloper</span></h1>
+          <h1 class="animation animation-right">I'm a <span id="skills-changing"></span></h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
             accusantium quae voluptatibus labore distinctio asperiores
@@ -102,31 +101,11 @@
           <i class="fa-solid fa-user"></i>
           <h1>My Skills</h1>
         </div>
-        <div class="boxes">
-          <div class="skill-box animation animation-right">
-            <img src="images/c.png" alt="c logo">
-            <h2>C language</h2>
-          </div>
-          <div class="skill-box animation animation-bottom">
-            <img src="images/cpp.png" alt="c logo">
-            <h2>C++ language</h2>
-          </div>
-          <div class="skill-box animation animation-left">
-            <img src="images/python.png" alt="c logo">
-            <h2>Python language</h2>
-          </div>
-          <div class="skill-box animation animation-left">
-            <img src="images/html.png" alt="c logo">
-            <h2>HTML</h2>
-          </div>
-          <div class="skill-box animation animation-bottom">
-            <img src="images/css.png" alt="c logo">
-            <h2>CSS</h2>
-          </div>
-          <div class="skill-box animation animation-right">
-            <img src="images/js.png" alt="c logo">
-            <h2>JavaScript</h2>
-          </div>
+        <div class="boxes" id="skill-boxes">
+          <!-- -------------skills boxes here-------------- -->
+        </div>
+        <div class="btns show-more animation animation-left">
+          <button href="#" class="btn btn-white" id="show-skills-btn">Show Skills &nbsp<i class="fa-solid fa-eye"></i></button>
         </div>
       </div>
     </section>
@@ -190,53 +169,32 @@
           <h1>My Projects</h1>
         </div>
 
-        <div class="boxes">
-          <div class="skill-box project-box animation animation-right">
-            <div class="background-image">
-              <div class="project-content">
-                <div class="project-box-content">
-                  <h2>Tic-Tac-Toe</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.</p>
-                  <div class="btns projects-btn">
-                    <a href="#" class="btn btn-white">View</a>
-                    <a href="#" class="btn btn-white">Source</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="skill-box project-box animation animation-top">
-            <div class="background-image">
-              <div class="project-content">
-                <div class="project-box-content">
-                  <h2>Tic-Tac-Toe</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.</p>
-                  <div class="btns projects-btn">
-                    <a href="#" class="btn btn-white">View</a>
-                    <a href="#" class="btn btn-white">Source</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="skill-box project-box animation animation-left">
-            <div class="background-image">
-              <div class="project-content">
-                <div class="project-box-content">
-                  <h2>Tic-Tac-Toe</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.</p>
-                  <div class="btns projects-btn">
-                    <a href="#" class="btn btn-white">View</a>
-                    <a href="#" class="btn btn-white">Source</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="boxes" id="project-boxes">
+          <!-- ----------projet content here ----------------->
+        </div>
+        <div class="btns animation animation-right show-more">
+          <button class="btn btn-white" id="show-more-btn">Show Projects &nbsp<i class="fa-solid fa-eye"></i></button>
+          
         </div>
 
       </div>
+    </section> 
+
+    <section class="section1">
+      <div class="container set-items-rows" id="contact">
+        <div class="contact-image">
+          <img src="images/contact.png" alt="contact-logo">
+        </div>
+        <div class="contact-box set-items-colums">
+          <h1>Contact Me</h1>
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Message" rows="4" ></textarea>
+          <a href="#" class="btn btn-white">Send Message</a>
+        </div>
+      </div>
     </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

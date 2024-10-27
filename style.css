@@ -17,6 +17,8 @@
     --glow-effect: rgba(239, 35, 60, .6);
     --glow-effect-hover: rgba(239, 35, 60, 1);
 
+    --text-decoration-3 : #3b475e;
+
 }
 body,
 html {
@@ -75,6 +77,14 @@ label{
     color: var(--text-decoration-2);
     text-decoration: none ;
 }
+button{
+    border: none;
+    font-size: 900;
+    font-size: 1.1rem;
+}
+textarea{
+    resize: none;
+}
 
 /* -------------------common classes------------------ */
 
@@ -122,6 +132,13 @@ label{
     align-items: center;
     flex-wrap: wrap;
     row-gap: 4rem;
+}
+.set-items-rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
 }
 
 .in-view {
@@ -294,10 +311,10 @@ nav {
   }
   
   /* Visible state: fully visible and back to original position */
-  .animation-in-view{
+.animation.animation-in-view{
     opacity: 1;
     transform: translateY(0);
-  }
+}
 
 .about-me {
     padding: 5rem;
@@ -432,15 +449,16 @@ nav {
 
 .background-image{
     width: 100%;
-    background-image: url('images/tic-tac-toe.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: .4rem;
     height: auto;
 }
+
 .project-content{
     width: 100%;
+    border-radius: .3rem;
     padding-top: 7rem;
     
     overflow: hidden;
@@ -454,7 +472,7 @@ nav {
     flex-direction: column;
     row-gap: 1rem;
     opacity: 1;
-    transform: translateY(13.1rem);
+    transform: translateY(77%);
     transition: .3s;
 }
 .project-content:hover .project-box-content{
@@ -477,4 +495,45 @@ nav {
 .projects-btn a{
     background-color: var(--white-color);
     color: var(--background-light-dark-color);
+}
+
+.show-more{
+    width: 100%;
+    justify-content: center;
+}
+
+#contact{
+    padding: 3rem 0;
+    background-color:var(--background-light-dark-color);
+    border-radius: 2rem;
+}
+
+.contact-box{
+    width: 35%;
+}
+
+.contact-image{
+    width:35%;
+}
+.contact-image img{
+    width: 100%;
+}
+.contact-box input,textarea{
+    width: 70%;
+    padding: .9rem 2rem;
+    outline: none;
+    border-radius: .6rem;
+    border: none;
+    background-color:var(--text-decoration-3);
+}
+input::placeholder ,textarea::placeholder{
+    color: var(--white-color);
+    opacity: .8;
+}
+input:focus{
+    background-color: var(--text-decoration-2);
+    color: var(--black-color);
+}
+textarea:focus{
+    background-color: var(--text-decoration-2);
 }
