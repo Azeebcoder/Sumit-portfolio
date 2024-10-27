@@ -1,0 +1,26 @@
+[
+    {
+        "title": "C language",
+        "image": "images/c.png"
+    },
+    {
+        "title": "C++ language",
+        "image": "images/cpp.png"
+    },
+    {
+        "title": "Python language",
+        "image": "images/python.png"
+    },
+    {
+        "title": "HTML",
+        "image": "images/html.png"
+    },
+    {
+        "title": "CSS",
+        "image": "images/css.png"
+    },
+    {
+        "title": "Javascript",
+        "image": "images/js.png"
+    }
+]
