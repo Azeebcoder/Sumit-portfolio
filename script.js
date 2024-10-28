@@ -160,7 +160,7 @@ window.addEventListener("load", async () => {
 
         // Show only the first 4 projects initially
         displayProjects(allProjects.slice(0, 3));
-        displayskills(allskills.slice(0,3));
+        displayskills(allskills.slice(0,4));
     } catch (error) {
         showError(projectcontainer, 'Failed to load projects.');
         console.error('Error fetching JSON:', error);
@@ -182,13 +182,13 @@ projectbtn.addEventListener("click", () => {
 });
 flag = true;
 skillbtn.addEventListener("click", () => {
-    if (allProjects.length > 3 && flag) {
-        displayskills(allskills.slice(3)); // Show all projects when button is clicked
+    if (allskills.length > 4 && flag) {
+        displayskills(allskills.slice(4)); // Show all projects when button is clicked
         skillbtn.innerHTML = 'Hide skills \u00A0 <i class="fa-solid fa-eye-slash"></i>'; // Change button text
         flag = false;
     } else{
         skillscontainer.innerHTML = '';
-        displayskills(allskills.slice(0,3));
+        displayskills(allskills.slice(0,4));
         skillbtn.innerHTML = 'Show Skills \u00A0 <i class="fa-solid fa-eye"></i>';
         flag = true;
     }

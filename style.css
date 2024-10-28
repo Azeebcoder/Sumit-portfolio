@@ -6,6 +6,7 @@
 :root {
     --text-hover-color: #ef233c;
     --background-color: #0d1b2a;
+    --background-color-dark : #050c13;
     --background-light-dark-color: #1b263b;
     --section-color: #14213d;
     --text-decoration : #fb8500;
@@ -148,7 +149,7 @@ textarea{
 .boxes {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     row-gap: 2rem;
 }
 /* -----------------navbar--------------- */
@@ -342,6 +343,7 @@ nav {
     font-size: 1.9rem;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row !important;
     min-width: 40%;
 }
 .about-links li a i {
@@ -440,6 +442,9 @@ nav {
 }
 
 /* ----------------------------------------------projects-------------------------------------------- */
+#project-boxes{
+    grid-template-columns: repeat(3 , 1fr);
+}
 
 .project-box{
     width: 90%;
@@ -502,6 +507,8 @@ nav {
     justify-content: center;
 }
 
+/* --------------------------contact me------------------------------------- */
+
 #contact{
     padding: 3rem 0;
     background-color:var(--background-light-dark-color);
@@ -509,11 +516,11 @@ nav {
 }
 
 .contact-box{
-    width: 35%;
+    width: 45%;
 }
 
 .contact-image{
-    width:35%;
+    width:30%;
 }
 .contact-image img{
     width: 100%;
@@ -537,3 +544,54 @@ input:focus{
 textarea:focus{
     background-color: var(--text-decoration-2);
 }
+
+
+/* ----------------------------------------foooter------------------------------------- */
+
+footer{
+    background-color: var(--background-color) !important;
+    padding-top: 3rem!important;
+    padding-bottom: 1rem !important;
+
+}
+.footer-boxes{
+    grid-template-columns: .8fr .8fr 1.3fr;
+    gap: 2rem; 
+}
+.footer-box{
+    display: flex;
+    padding: 0 1rem;
+    /* background-color: green; */
+    align-items: start;
+    row-gap: 1.6rem;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: start;
+}
+.footer-links{
+    padding-left: 3rem;
+}
+.footer-links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: .8rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer-links ul li, .footer-links ul li a{
+    transition: .3s;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 1rem;
+    word-spacing: .2rem;
+}
+
+.footer-links ul li:hover, .footer-links ul li a:hover{
+    transform: scale(1.06);
+    color: var(--text-decoration);
+}
+

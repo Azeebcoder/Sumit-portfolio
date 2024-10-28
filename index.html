@@ -27,7 +27,7 @@
         </div>
         <div class="right-nav">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
@@ -42,7 +42,7 @@
     <!-- -----------Hero section------------ -->
     <div class="background"></div>
     <canvas id="canvas"></canvas>
-    <header class="content">
+    <header class="content" id="home">
       <div class="container image-content-section">
         <div class="hero-left-content">
           <p>My Name</p>
@@ -180,20 +180,62 @@
       </div>
     </section> 
 
+    <!-- -------------------------contact me----------------------------- -->
+
     <section class="section1">
       <div class="container set-items-rows" id="contact">
-        <div class="contact-image">
+        <div class="contact-image animation animation-left">
           <img src="images/contact.png" alt="contact-logo">
         </div>
         <div class="contact-box set-items-colums">
-          <h1>Contact Me</h1>
-          <input type="text" placeholder="Name">
-          <input type="email" placeholder="Email">
-          <textarea placeholder="Message" rows="4" ></textarea>
-          <a href="#" class="btn btn-white">Send Message</a>
+          <h1 class="animation animation-bottom">Contact Me</h1>
+          <input type="text" placeholder="Name" class="animation animation-right">
+          <input type="email" placeholder="Email" class="animation animation-right">
+          <textarea placeholder="Message" rows="4" class="animation animation-right" ></textarea>
+          <a href="#" class="btn btn-white animation animation-left">Send Message</a>
         </div>
       </div>
     </section>
+
+
+    <footer class="section1">
+      <div class="container">
+        <div class="boxes footer-boxes">
+          <div class="footer-box">
+            <h2 class="animation animation-right">Sumit's Portfolio</h2>
+            <p class="animation animation-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus sequi velit molestiae ab consequun</p>
+            <p class="animation animation-bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="footer-box footer-links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li class="animation animation-left"><a href="#home"><i class="fas fa-chevron-circle-right"></i>&nbsp Home</a></li>
+              <li class="animation animation-left"><a href="#about"><i class="fas fa-chevron-circle-right"></i>&nbsp About</a></li>
+              <li class="animation animation-left"><a href="#skills"><i class="fas fa-chevron-circle-right"></i>&nbsp Skills</a></li>
+              <li class="animation animation-left"><a href="#education"><i class="fas fa-chevron-circle-right"></i>&nbsp Education</a></li>
+              <li class="animation animation-left"><a href="#projects"><i class="fas fa-chevron-circle-right"></i>&nbsp Projects</a></li>
+              <li class="animation animation-left"><a href="#contact"><i class="fas fa-chevron-circle-right"></i>&nbsp Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-box footer-links">
+            <h2>Contact Info</h2>
+            <ul>
+              <li class="animation animation-left"><a href="#"><i class="fa-solid fa-phone"></i>&nbsp &nbsp+91 6397929579</li></a>
+              <li class="animation animation-left"><a href="#"><i class="fa-solid fa-envelope"></i>&nbsp &nbsp djadamnoob9568@gmail.com</a></li>
+              <li class="animation animation-left"><a href="#"><i class="fa-solid fa-map-location-dot"></i>&nbsp &nbsp Shahpur baroli,Baghpat</a></li>
+            </ul>
+            <ul class="about-links animation animation-left" >
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/its_sumit_bhardwaj_007/" target="_blank "><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="https://github.com/Azeebcoder" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <hr style="margin-top: 4rem;">
+        <h4 class="copyright">Made with <span><i class="fa-solid fa-heart"></i></span> by <span>Sumit</span> Bhardwaj</h4>
+      </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
   </body>
