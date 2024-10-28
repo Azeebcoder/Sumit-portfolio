@@ -22,5 +22,10 @@
     {
         "title": "Javascript",
         "image": "images/js.png"
-    }
+    },
+    {
+        "title": "Bootstraps",
+        "image":"images/bootstraps.png"
+    }    
+
 ]
