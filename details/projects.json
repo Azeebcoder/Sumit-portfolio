@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Tic-Tac-Toe",
+        "description": "I developed Tic Tac Toe game using JavaScript, HTML, and CSS. The game allows two players to compete against each other. This project helped me enhance my skills in web development and game logic implementation.",
+        "image": "images/tic-tac-toe.png",
+        "view": "https://azeebcoder.github.io/Tic-Tac-Toe/",
+        "source": "https://github.com/Azeebcoder/Tic-Tac-Toe"
+    },
+    {
+        "title": "Real-Estate Website",
+        "description": "I created a responsive real estate website using HTML, CSS, and JavaScript. This project allowed me to apply my web development skills while creating a practical solution for real estate needs.",
+        "image": "images/baghpat-real-estate.png",
+        "view": "https://baghpatrealestate.com/",
+        "source": "https://github.com/Azeebcoder/Baghpat-Real-Estate"
+    },
+    {
+        "title": "Binary-Sum (C++)",
+        "description": "I developed a C++ program that sums two binary numbers. The program accepts user input for both binary values, and outputs the result in binary format. This project enhanced my understanding of C++ programming concepts.",
+        "image": "images/binary-sum.jpg",
+        "view": "pages/show-code.html?name=Binary-Sum (C++)",
+        "source": "pages/show-code.html?name=Binary-Sum (C++)",
+        "codes" : "/cpp_programs/Bianary-sum.cpp"
+    },
+    {
+        "title": "Number-To-Words (C++)",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/number-to-words.jpg",
+        "view": "pages/show-code.html?name=Number-To-Words (C++)",
+        "source": "pages/show-code.html?name=Number-To-Words (C++)",
+        "codes" : "/cpp_programs/number-to-words.cpp"
+    }
+]

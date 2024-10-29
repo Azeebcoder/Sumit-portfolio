@@ -1,0 +1,22 @@
+.show-code{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.section1{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 8rem;
+}
+#code{
+    font-size: 1.3rem ;
+    margin-left: 7rem;
+    background-color: transparent !important;
+    max-width: 100%;
+    /* line-break: anywhere; Allows breaking of lines */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
