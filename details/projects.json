@@ -17,8 +17,8 @@
         "title": "Binary-Sum (C++)",
         "description": "I developed a C++ program that sums two binary numbers. The program accepts user input for both binary values, and outputs the result in binary format. This project enhanced my understanding of C++ programming concepts.",
         "image": "images/binary-sum.jpg",
-        "view": "pages/show-code.html?name=Binary-Sum (C++)",
-        "source": "pages/show-code.html?name=Binary-Sum (C++)",
+        "view": "/pages/show-code.html?name=Binary-Sum (C++)",
+        "source": "/pages/show-code.html?name=Binary-Sum (C++)",
         "codes" : "/cpp_programs/Bianary-sum.cpp"
     },
     {
