@@ -1,21 +1,17 @@
 const content = document.querySelector("#code");
+
 function getQueryParams() {
-    const params = {};
-    const queryString = window.location.search.substring(1);
-    const pairs = queryString.split('&');
-    pairs.forEach(pair => {
-        const [key, value] = pair.split('=');
-        params[decodeURIComponent(key)] = decodeURIComponent(value);
-    });
-    return params;
+    const params = new URLSearchParams(window.location.search); // Get query parameters
+    const name = params.get('name');
+    return name;
 }
-let add;
 const data = getQueryParams();
+console.log(data);
 window.addEventListener("load", async () => {
 
     try {
         alldata = await fetchData('/details/projects.json');
-        const userIdToFind = data.name;
+        const userIdToFind = data;
         const code = alldata.find(code => code.title === userIdToFind);
         fetch(code.codes)
             .then(response => {
