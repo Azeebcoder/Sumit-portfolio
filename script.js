@@ -244,7 +244,7 @@ function createprojectcard(item) {
 
     // Set up the card's inner HTML structure
     card.innerHTML = `
-        <div class="background-image" style="background-image: url('${item.image}');">
+        <div class="background-image" style="background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.8)),url('${item.image}');">
             <div class="project-content">
                 <div class="project-box-content">
                     <h2>${item.title || 'Untitled Project'}</h2>

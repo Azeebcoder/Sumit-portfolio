@@ -491,6 +491,9 @@ nav {
 .project-box-content p{
     max-width: 90%;
     text-align: left;
+    line-height: 1.5rem;
+    font-weight: 300;
+    font-size: 1rem;
 }
 .projects-btn{
     display: flex;
