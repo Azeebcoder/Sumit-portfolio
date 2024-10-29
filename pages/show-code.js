@@ -6,7 +6,6 @@ function getQueryParams() {
     return name;
 }
 const data = getQueryParams();
-console.log(data);
 window.addEventListener("load", async () => {
 
     try {
