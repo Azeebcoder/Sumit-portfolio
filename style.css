@@ -151,7 +151,7 @@ textarea{
 /* -----------------navbar--------------- */
 .nav {
     width: 100%;
-    min-height: 7vh;
+    min-height: 8vh;
     position: fixed;
     top: 0;
     background-color: var(--background-color);
