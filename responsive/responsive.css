@@ -43,7 +43,7 @@
     }
     .right-nav ul{
         height: 100%;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-direction: column;
     }
     .right-nav ul li{
