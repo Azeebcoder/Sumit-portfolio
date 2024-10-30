@@ -19,7 +19,7 @@
         "image": "images/binary-sum.jpg",
         "view": "pages/show-code.html?name=Binary-Sum",
         "source": "pages/show-code.html?name=Binary-Sum",
-        "codes" : "/cpp_programs/Bianary-sum.cpp"
+        "codes" : "../cpp_programs/Bianary-sum.cpp"
     },
     {
         "title": "Number-To-Words",
@@ -27,7 +27,7 @@
         "image": "images/number-to-words.jpg",
         "view": "pages/show-code.html?name=Number-To-Words",
         "source": "pages/show-code.html?name=Number-To-Words",
-        "codes" : "/cpp_programs/number-to-words.cpp"
+        "codes" : "../cpp_programs/number-to-words.cpp"
     },
     {
         "title": "Add Two Reverse lists",
@@ -35,7 +35,7 @@
         "image": "images/add-two-reverse-list.png",
         "view": "pages/show-code.html?name=Add Two Reverse lists",
         "source": "pages/show-code.html?name=Add Two Reverse lists",
-        "codes" : "/cpp_programs/add-two-reversed-linkedlist-number-in-reversed-order.cpp"
+        "codes" : "../cpp_programs/add-two-reversed-linkedlist-number-in-reversed-order.cpp"
     },
     {
         "title": "Bubble Sort",
@@ -43,7 +43,7 @@
         "image": "images/bubble-sort.webp",
         "view": "pages/show-code.html?name=Bubble Sort",
         "source": "pages/show-code.html?name=Bubble Sort",
-        "codes" : "/cpp_programs/bubble-sort.cpp"
+        "codes" : "../cpp_programs/bubble-sort.cpp"
     },
     {
         "title": "Count Sort",
@@ -51,7 +51,7 @@
         "image": "images/count-sort.jpg",
         "view": "pages/show-code.html?name=Count Sort",
         "source": "pages/show-code.html?name=Count Sort",
-        "codes" : "/cpp_programs/count-sort.cpp"
+        "codes" : "../cpp_programs/count-sort.cpp"
     },
     {
         "title": "Decimal to Binary",
@@ -59,7 +59,7 @@
         "image": "images/decimal-to-binary.jpg",
         "view": "pages/show-code.html?name=Decimal to Binary",
         "source": "pages/show-code.html?name=Decimal to Binary",
-        "codes" : "/cpp_programs/decimal-to-binary-point-wala-1.cpp"
+        "codes" : "../cpp_programs/decimal-to-binary-point-wala-1.cpp"
     },
     {
         "title": "Words arrangement",
@@ -67,7 +67,7 @@
         "image": "images/word-arrangement.jpg",
         "view": "pages/show-code.html?name=Words arrangement",
         "source": "pages/show-code.html?name=Words arrangement",
-        "codes" : "/cpp_programs/dictionary.cpp"
+        "codes" : "../cpp_programs/dictionary.cpp"
     },
     {
         "title": "Doubly list functions",
@@ -75,7 +75,7 @@
         "image": "images/doubly-list.jpg",
         "view": "pages/show-code.html?name=Doubly list functions",
         "source": "pages/show-code.html?name=Doubly list functions",
-        "codes" : "/cpp_programs/doublelinkedlist-functions.cpp"
+        "codes" : "../cpp_programs/doublelinkedlist-functions.cpp"
     },
     {
         "title": "Pattern Save",
@@ -83,7 +83,7 @@
         "image": "images/pattern-save.jpeg",
         "view": "pages/show-code.html?name=Pattern Save",
         "source": "pages/show-code.html?name=Pattern Save",
-        "codes" : "/cpp_programs/file-pattern.cpp"
+        "codes" : "../cpp_programs/file-pattern.cpp"
     },
     {
         "title": "Find LCM",
@@ -91,7 +91,7 @@
         "image": "images/find-lcm.jpg",
         "view": "pages/show-code.html?name=Find LCM",
         "source": "pages/show-code.html?name=Find LCM",
-        "codes" : "/cpp_programs/find-LCM.cpp"
+        "codes" : "../cpp_programs/find-LCM.cpp"
     },
     {
         "title": "Number Sum array",
@@ -99,7 +99,7 @@
         "image": "images/sum-of-array-elements.jpg",
         "view": "pages/show-code.html?name=Number Sum array",
         "source": "pages/show-code.html?name=Number Sum array",
-        "codes" : "/cpp_programs/find-number-sum-in-array.cpp"
+        "codes" : "../cpp_programs/find-number-sum-in-array.cpp"
     },
     {
         "title": "Target sum List",
@@ -107,7 +107,7 @@
         "image": "images/target-sum-list.png",
         "view": "pages/show-code.html?name=Target sum List",
         "source": "pages/show-code.html?name=Target sum List",
-        "codes" : "/cpp_programs/find-target-sum-linkedlist.cpp"
+        "codes" : "../cpp_programs/find-target-sum-linkedlist.cpp"
     },
     {
         "title": "Insertion sort",
@@ -115,7 +115,7 @@
         "image": "images/insertion-sort.png",
         "view": "pages/show-code.html?name=Insertion sort",
         "source": "pages/show-code.html?name=Insertion sort",
-        "codes" : "/cpp_programs/insertion-sort.cpp"
+        "codes" : "../cpp_programs/insertion-sort.cpp"
     },
     {
         "title": "Integer To Roman",
@@ -123,7 +123,7 @@
         "image": "images/integer-to-roman.png",
         "view": "pages/show-code.html?name=Integer To Roman",
         "source": "pages/show-code.html?name=Integer To Roman",
-        "codes" : "/cpp_programs/integer-to-roman.cpp"
+        "codes" : "../cpp_programs/integer-to-roman.cpp"
     },
     {
         "title": "Even Nodes list",
@@ -131,7 +131,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Even Nodes list",
         "source": "pages/show-code.html?name=Even Nodes list",
-        "codes" : "/cpp_programs/linkedlist-even-nodes.cpp"
+        "codes" : "../cpp_programs/linkedlist-even-nodes.cpp"
     },
     {
         "title": "Intersection in list",
@@ -139,7 +139,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Intersection in list",
         "source": "pages/show-code.html?name=Intersection in list",
-        "codes" : "/cpp_programs/linkedlist-find-intersection.cpp"
+        "codes" : "../cpp_programs/linkedlist-find-intersection.cpp"
     },
     {
         "title": "Pallindrome list",
@@ -147,7 +147,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Pallindrome list",
         "source": "pages/show-code.html?name=Pallindrome list",
-        "codes" : "/cpp_programs/linkedlist-pallindrime.cpp"
+        "codes" : "../cpp_programs/linkedlist-pallindrime.cpp"
     },
     {
         "title": "K node reverse",
@@ -155,7 +155,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=K node reverse",
         "source": "pages/show-code.html?name=K node reverse",
-        "codes" : "/cpp_programs/linkedlist-reverse-k-nodes.cpp"
+        "codes" : "../cpp_programs/linkedlist-reverse-k-nodes.cpp"
     },
     {
         "title": "Linkedlist Basic",
@@ -163,7 +163,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Linkedlist Basic",
         "source": "pages/show-code.html?name=Linkedlist Basic",
-        "codes" : "/cpp_programs/linkedlist-takeinput.cpp"
+        "codes" : "../cpp_programs/linkedlist-takeinput.cpp"
     },
     {
         "title": "Longest valid Bracket",
@@ -171,7 +171,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Longest valid Bracket",
         "source": "pages/show-code.html?name=Longest valid Bracket",
-        "codes" : "/cpp_programs/longest-valid-paranthisis.cpp"
+        "codes" : "../cpp_programs/longest-valid-paranthisis.cpp"
     },
     {
         "title": "Matrix Multiplication",
@@ -179,7 +179,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Matrix Multiplication",
         "source": "pages/show-code.html?name=Matrix Multiplication",
-        "codes" : "/cpp_programs/matrix-multiplication.cpp"
+        "codes" : "../cpp_programs/matrix-multiplication.cpp"
     },
     {
         "title": "Matrix Transpose",
@@ -187,7 +187,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Matrix Transpose",
         "source": "pages/show-code.html?name=Matrix Transpose",
-        "codes" : "/cpp_programs/matrix-transpose.cpp"
+        "codes" : "../cpp_programs/matrix-transpose.cpp"
     },
     {
         "title": "Max in Window",
@@ -195,7 +195,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Max in Window",
         "source": "pages/show-code.html?name=Max in Window",
-        "codes" : "/cpp_programs/max-in-window.cpp"
+        "codes" : "../cpp_programs/max-in-window.cpp"
     },
     {
         "title": "Merge two Lists",
@@ -203,7 +203,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Merge two Lists",
         "source": "pages/show-code.html?name=Merge two Lists",
-        "codes" : "/cpp_programs/merge-two-sorted-linked-list.cpp"
+        "codes" : "../cpp_programs/merge-two-sorted-linked-list.cpp"
     },
     {
         "title": "Number System 1",
@@ -211,7 +211,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Number System 1",
         "source": "pages/show-code.html?name=Number System 1",
-        "codes" : "/cpp_programs/number-system-converstion.cpp"
+        "codes" : "../cpp_programs/number-system-converstion.cpp"
     },
     {
         "title": "Number System 2",
@@ -219,7 +219,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Number System 2",
         "source": "pages/show-code.html?name=Number System 2",
-        "codes" : "/cpp_programs/number-system-converstion-modified.cpp"
+        "codes" : "../cpp_programs/number-system-converstion-modified.cpp"
     },
     {
         "title": "Rock Paper Scessior 1",
@@ -227,7 +227,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Rock Paper Scessior 1",
         "source": "pages/show-code.html?name=Rock Paper Scessior 1",
-        "codes" : "/cpp_programs/rock_paper_scessior.cpp"
+        "codes" : "../cpp_programs/rock_paper_scessior.cpp"
     },
     {
         "title": "Rock Paper Scessior 2",
@@ -235,7 +235,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Rock Paper Scessior 2",
         "source": "pages/show-code.html?name=Rock Paper Scessior 2",
-        "codes" : "/cpp_programs/rock-paper-scessior-1.cpp"
+        "codes" : "../cpp_programs/rock-paper-scessior-1.cpp"
     },
     {
         "title": "Selection sort",
@@ -243,7 +243,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Selection sort",
         "source": "pages/show-code.html?name=Selection sort",
-        "codes" : "/cpp_programs/selection-sort.cpp"
+        "codes" : "../cpp_programs/selection-sort.cpp"
     },
     {
         "title": "Matrix Spirel",
@@ -251,7 +251,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Matrix Spirel",
         "source": "pages/show-code.html?name=Matrix Spirel",
-        "codes" : "/cpp_programs/spiral.cpp"
+        "codes" : "../cpp_programs/spiral.cpp"
     },
     {
         "title": "Sudku Solver",
@@ -259,7 +259,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Sudku Solver",
         "source": "pages/show-code.html?name=Sudku Solver",
-        "codes" : "/cpp_programs/sudku_solver.cpp"
+        "codes" : "../cpp_programs/sudku_solver.cpp"
     },
     {
         "title": "Exchangable Candy",
@@ -267,7 +267,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Exchangable Candy",
         "source": "pages/show-code.html?name=Exchangable Candy",
-        "codes" : "/cpp_programs/total-drinkable-water-bottle.cpp"
+        "codes" : "../cpp_programs/total-drinkable-water-bottle.cpp"
     },
     {
         "title": "Valid Brackets",
@@ -275,7 +275,7 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Valid Brackets",
         "source": "pages/show-code.html?name=Valid Brackets",
-        "codes" : "/cpp_programs/valid-brackets.cpp"
+        "codes" : "../cpp_programs/valid-brackets.cpp"
     },
     {
         "title": "Vector Basics",
@@ -283,6 +283,6 @@
         "image": "images/",
         "view": "pages/show-code.html?name=Vector Basics",
         "source": "pages/show-code.html?name=Vector Basics",
-        "codes" : "/cpp_programs/vector.cpp"
+        "codes" : "../cpp_programs/vector.cpp"
     }
 ]
