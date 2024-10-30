@@ -2,6 +2,7 @@
     display: flex;
     justify-content:start;
     align-items: center;
+    flex-wrap: wrap;
 }
 .section1{
     min-height: 90vh;
@@ -11,12 +12,17 @@
     row-gap: 8rem;
 }
 #code{
-    font-size: 1.3rem ;
-    margin-left: 7rem;
+    font-size: 1.1rem ;
+    margin-left: 1rem;
     background-color: transparent !important;
     max-width: 100%;
-    /* line-break: anywhere; Allows breaking of lines */
     overflow-wrap: break-word;
     word-wrap: break-word;
     white-space: pre-wrap;
+}
+@media (max-width: 767px) {
+    #code{
+        font-size: .8rem ;
+    }
+
 }
