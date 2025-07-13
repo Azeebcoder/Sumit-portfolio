@@ -1,31 +1,35 @@
+
 [
     {
         "title": "C language",
-        "image": "images/c.png"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/380px-C_Programming_Language.svg.png"
     },
     {
-        "title": "C++ language",
-        "image": "images/cpp.png"
+        "title": "C++",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png"
     },
     {
-        "title": "Python language",
-        "image": "images/python.png"
+        "title": "Python",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/archive/c/c3/20220730085403%21Python-logo-notext.svg"
     },
     {
         "title": "HTML",
-        "image": "images/html.png"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
     },
     {
         "title": "CSS",
-        "image": "images/css.png"
+        "image": "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
     },
     {
         "title": "Javascript",
-        "image": "images/js.png"
+        "image": "https://www.freepnglogos.com/uploads/javascript-png/js-logo-png-5.png"
     },
     {
         "title": "Bootstraps",
-        "image":"images/bootstraps.png"
-    }    
-
+        "image":"https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+    },
+    {
+        "title" : "React",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png"
+    }
 ]

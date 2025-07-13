@@ -14,19 +14,275 @@
         "source": "https://github.com/Azeebcoder/Baghpat-Real-Estate"
     },
     {
-        "title": "Binary-Sum (C++)",
+        "title": "Binary-Sum",
         "description": "I developed a C++ program that sums two binary numbers. The program accepts user input for both binary values, and outputs the result in binary format. This project enhanced my understanding of C++ programming concepts.",
         "image": "images/binary-sum.jpg",
-        "view": "pages/show-code.html?name=Binary-Sum (C++)",
-        "source": "pages/show-code.html?name=Binary-Sum (C++)",
-        "codes" : "/cpp_programs/Bianary-sum.cpp"
+        "view": "pages/show-code.html?name=Binary-Sum",
+        "source": "pages/show-code.html?name=Binary-Sum",
+        "codes" : "../cpp_programs/Bianary-sum.cpp"
     },
     {
-        "title": "Number-To-Words (C++)",
+        "title": "Number-To-Words",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
         "image": "images/number-to-words.jpg",
-        "view": "pages/show-code.html?name=Number-To-Words (C++)",
-        "source": "pages/show-code.html?name=Number-To-Words (C++)",
-        "codes" : "/cpp_programs/number-to-words.cpp"
+        "view": "pages/show-code.html?name=Number-To-Words",
+        "source": "pages/show-code.html?name=Number-To-Words",
+        "codes" : "../cpp_programs/number-to-words.cpp"
+    },
+    {
+        "title": "Add Two Reverse lists",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/add-two-reverse-list.png",
+        "view": "pages/show-code.html?name=Add Two Reverse lists",
+        "source": "pages/show-code.html?name=Add Two Reverse lists",
+        "codes" : "../cpp_programs/add-two-reversed-linkedlist-number-in-reversed-order.cpp"
+    },
+    {
+        "title": "Bubble Sort",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/bubble-sort.webp",
+        "view": "pages/show-code.html?name=Bubble Sort",
+        "source": "pages/show-code.html?name=Bubble Sort",
+        "codes" : "../cpp_programs/bubble-sort.cpp"
+    },
+    {
+        "title": "Count Sort",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/count-sort.jpg",
+        "view": "pages/show-code.html?name=Count Sort",
+        "source": "pages/show-code.html?name=Count Sort",
+        "codes" : "../cpp_programs/count-sort.cpp"
+    },
+    {
+        "title": "Decimal to Binary",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/decimal-to-binary.jpg",
+        "view": "pages/show-code.html?name=Decimal to Binary",
+        "source": "pages/show-code.html?name=Decimal to Binary",
+        "codes" : "../cpp_programs/decimal-to-binary-point-wala-1.cpp"
+    },
+    {
+        "title": "Words arrangement",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/word-arrangement.jpg",
+        "view": "pages/show-code.html?name=Words arrangement",
+        "source": "pages/show-code.html?name=Words arrangement",
+        "codes" : "../cpp_programs/dictionary.cpp"
+    },
+    {
+        "title": "Doubly list functions",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/doubly-list.jpg",
+        "view": "pages/show-code.html?name=Doubly list functions",
+        "source": "pages/show-code.html?name=Doubly list functions",
+        "codes" : "../cpp_programs/doublelinkedlist-functions.cpp"
+    },
+    {
+        "title": "Pattern Save",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/pattern-save.jpeg",
+        "view": "pages/show-code.html?name=Pattern Save",
+        "source": "pages/show-code.html?name=Pattern Save",
+        "codes" : "../cpp_programs/file-pattern.cpp"
+    },
+    {
+        "title": "Find LCM",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/find-lcm.jpg",
+        "view": "pages/show-code.html?name=Find LCM",
+        "source": "pages/show-code.html?name=Find LCM",
+        "codes" : "../cpp_programs/find-LCM.cpp"
+    },
+    {
+        "title": "Number Sum array",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/sum-of-array-elements.jpg",
+        "view": "pages/show-code.html?name=Number Sum array",
+        "source": "pages/show-code.html?name=Number Sum array",
+        "codes" : "../cpp_programs/find-number-sum-in-array.cpp"
+    },
+    {
+        "title": "Target sum List",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/target-sum-list.png",
+        "view": "pages/show-code.html?name=Target sum List",
+        "source": "pages/show-code.html?name=Target sum List",
+        "codes" : "../cpp_programs/find-target-sum-linkedlist.cpp"
+    },
+    {
+        "title": "Insertion sort",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/insertion-sort.png",
+        "view": "pages/show-code.html?name=Insertion sort",
+        "source": "pages/show-code.html?name=Insertion sort",
+        "codes" : "../cpp_programs/insertion-sort.cpp"
+    },
+    {
+        "title": "Integer To Roman",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/integer-to-roman.png",
+        "view": "pages/show-code.html?name=Integer To Roman",
+        "source": "pages/show-code.html?name=Integer To Roman",
+        "codes" : "../cpp_programs/integer-to-roman.cpp"
+    },
+    {
+        "title": "Even Nodes list",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Even Nodes list",
+        "source": "pages/show-code.html?name=Even Nodes list",
+        "codes" : "../cpp_programs/linkedlist-even-nodes.cpp"
+    },
+    {
+        "title": "Intersection in list",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Intersection in list",
+        "source": "pages/show-code.html?name=Intersection in list",
+        "codes" : "../cpp_programs/linkedlist-find-intersection.cpp"
+    },
+    {
+        "title": "Pallindrome list",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Pallindrome list",
+        "source": "pages/show-code.html?name=Pallindrome list",
+        "codes" : "../cpp_programs/linkedlist-pallindrime.cpp"
+    },
+    {
+        "title": "K node reverse",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=K node reverse",
+        "source": "pages/show-code.html?name=K node reverse",
+        "codes" : "../cpp_programs/linkedlist-reverse-k-nodes.cpp"
+    },
+    {
+        "title": "Linkedlist Basic",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Linkedlist Basic",
+        "source": "pages/show-code.html?name=Linkedlist Basic",
+        "codes" : "../cpp_programs/linkedlist-takeinput.cpp"
+    },
+    {
+        "title": "Longest valid Bracket",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Longest valid Bracket",
+        "source": "pages/show-code.html?name=Longest valid Bracket",
+        "codes" : "../cpp_programs/longest-valid-paranthisis.cpp"
+    },
+    {
+        "title": "Matrix Multiplication",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Matrix Multiplication",
+        "source": "pages/show-code.html?name=Matrix Multiplication",
+        "codes" : "../cpp_programs/matrix-multiplication.cpp"
+    },
+    {
+        "title": "Matrix Transpose",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Matrix Transpose",
+        "source": "pages/show-code.html?name=Matrix Transpose",
+        "codes" : "../cpp_programs/matrix-transpose.cpp"
+    },
+    {
+        "title": "Max in Window",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Max in Window",
+        "source": "pages/show-code.html?name=Max in Window",
+        "codes" : "../cpp_programs/max-in-window.cpp"
+    },
+    {
+        "title": "Merge two Lists",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Merge two Lists",
+        "source": "pages/show-code.html?name=Merge two Lists",
+        "codes" : "../cpp_programs/merge-two-sorted-linked-list.cpp"
+    },
+    {
+        "title": "Number System 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Number System 1",
+        "source": "pages/show-code.html?name=Number System 1",
+        "codes" : "../cpp_programs/number-system-converstion.cpp"
+    },
+    {
+        "title": "Number System 2",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Number System 2",
+        "source": "pages/show-code.html?name=Number System 2",
+        "codes" : "../cpp_programs/number-system-converstion-modified.cpp"
+    },
+    {
+        "title": "Rock Paper Scessior 1",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Rock Paper Scessior 1",
+        "source": "pages/show-code.html?name=Rock Paper Scessior 1",
+        "codes" : "../cpp_programs/rock_paper_scessior.cpp"
+    },
+    {
+        "title": "Rock Paper Scessior 2",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Rock Paper Scessior 2",
+        "source": "pages/show-code.html?name=Rock Paper Scessior 2",
+        "codes" : "../cpp_programs/rock-paper-scessior-1.cpp"
+    },
+    {
+        "title": "Selection sort",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Selection sort",
+        "source": "pages/show-code.html?name=Selection sort",
+        "codes" : "../cpp_programs/selection-sort.cpp"
+    },
+    {
+        "title": "Matrix Spirel",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Matrix Spirel",
+        "source": "pages/show-code.html?name=Matrix Spirel",
+        "codes" : "../cpp_programs/spiral.cpp"
+    },
+    {
+        "title": "Sudku Solver",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Sudku Solver",
+        "source": "pages/show-code.html?name=Sudku Solver",
+        "codes" : "../cpp_programs/sudku_solver.cpp"
+    },
+    {
+        "title": "Exchangable Candy",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Exchangable Candy",
+        "source": "pages/show-code.html?name=Exchangable Candy",
+        "codes" : "../cpp_programs/total-drinkable-water-bottle.cpp"
+    },
+    {
+        "title": "Valid Brackets",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Valid Brackets",
+        "source": "pages/show-code.html?name=Valid Brackets",
+        "codes" : "../cpp_programs/valid-brackets.cpp"
+    },
+    {
+        "title": "Vector Basics",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia molestiae ipsum adipisci voluptates, atque aliquid soluta, nisi animi nulla pariatur iste vel. Laborum repudiandae odio rerum amet reiciendis quaerat.",
+        "image": "images/",
+        "view": "pages/show-code.html?name=Vector Basics",
+        "source": "pages/show-code.html?name=Vector Basics",
+        "codes" : "../cpp_programs/vector.cpp"
     }
 ]

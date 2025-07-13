@@ -1,0 +1,151 @@
+@media (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    button{
+        font-size: .9rem;
+    }
+    .headings {
+        font-size: 2rem;
+    }
+    .boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .logo {
+        font-size: 25px;
+    }
+
+    .nav{
+        padding: 0 2rem;
+    }
+    .right-nav{
+        width: 60%;
+        min-height: 92vh;
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        background-color:var(--background-color);
+        transform: translateX(100%);
+    }
+    .right-nav ul{
+        height: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .right-nav ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-nav ul li a{
+        opacity: 0;
+    }
+    .menu{
+        display: block;
+    }
+
+    .image-content-section {
+        row-gap: 3rem;
+        flex-direction: column;
+    }
+
+    .hero-left-content {
+        flex-basis: 85%;
+        min-height: 45vh;
+        row-gap: 2rem;
+    }
+    .btns {
+        width: 100%;
+        height: 5rem;
+    }
+    .hero-right-content {
+        
+        width: 70%;
+        box-shadow: 0 0 20px var(--glow-effect);
+        transition: box-shadow 0.3s ease;
+    }
+    .about-me{
+        row-gap: 5rem;
+        flex-direction: column-reverse;
+    }
+    .about-me-image {
+        width: 70%;
+    }
+    .about-me-content {
+        width: 90%;
+    }
+    .about-links {
+        margin-top: 3rem;
+        font-size: 2.3rem;
+        min-width: 70%;
+        margin-left: 2rem;
+    }
+    .education-heading p{
+        max-width: 85%;
+        text-align: center;
+    }
+    .education-box{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .education-image{
+        width: 100%;
+    }
+    .education-details{
+        width: 90%;
+        flex-wrap: wrap;
+        row-gap: .7rem;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    #project-boxes{
+        grid-template-columns: 1fr;
+    }
+    .contact-image{
+        display: none;
+    }
+    .contact-box{
+        width: 100%;
+    }
+    .contact-box a{
+        border-radius: .3rem;
+    }
+    .footer-boxes{
+        grid-template-columns: 1fr;
+        row-gap: 4rem; 
+    }
+    .footer-links{
+        padding-left: 1rem;
+    }
+    .footer-box-links {
+        min-width: 45%;
+        margin: 0;
+    }
+    .footer-box-links li a {
+        font-size: 1.7rem;
+        max-width: 50vw;
+    }
+    
+}
+
+
+
+.nav-show{
+    transform: translateX(0);
+}

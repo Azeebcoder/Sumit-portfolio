@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,10 +19,13 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive/responsive.css">
   </head>
   <body>
-    <nav>
-      <div class="nav container">
+
+
+    <!-- ----------------------nav-bar------------------- -->
+    <nav class="nav container">
         <div class="left-nav">
           <div class="logo">Sumit</div>
         </div>
@@ -35,19 +39,21 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-      </div>
+        <div class="menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
     </nav>
-    <div style="width: 100%; height: 4rem;"></div>
+
 
     <!-- -----------Hero section------------ -->
-    <div class="background"></div>
-    <canvas id="canvas"></canvas>
-    <header class="content" id="home">
+    <header class="content section2" id="home" >
       <div class="container image-content-section">
         <div class="hero-left-content">
-          <p>My Name</p>
-          <h2><span>Sumit</span> Bhardwaj</h2>
-          <h1 class="animation animation-right">I'm a <span id="skills-changing"></span></h1>
+          <!-- <p>My Name</p> -->
+          <h1><span>Sumit</span> Bhardwaj</h1>
+          <h2 class="animation animation-right">I'm a <span id="skills-changing"></span></h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
             accusantium quae voluptatibus labore distinctio asperiores
@@ -192,7 +198,7 @@
           <input type="text" placeholder="Name" class="animation animation-right">
           <input type="email" placeholder="Email" class="animation animation-right">
           <textarea placeholder="Message" rows="4" class="animation animation-right" ></textarea>
-          <a href="#" class="btn btn-white animation animation-left">Send Message</a>
+          <a href="#" class="btn btn-white animation animation-left">Send Message &nbsp<i class="fa-solid fa-paper-plane"></i></a>
         </div>
       </div>
     </section>
@@ -225,7 +231,7 @@
               <li class="animation animation-left"><a href="#"><i class="fa-solid fa-envelope"></i>&nbsp &nbsp djadamnoob9568@gmail.com</a></li>
               <li class="animation animation-left"><a href="#"><i class="fa-solid fa-map-location-dot"></i>&nbsp &nbsp Shahpur baroli,Baghpat</a></li>
             </ul>
-            <ul class="about-links animation animation-left" >
+            <ul class="about-links footer-box-links animation animation-left" >
               <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
               <li><a href="https://www.instagram.com/its_sumit_bhardwaj_007/" target="_blank "><i class="fa-brands fa-instagram"></i></a></li>
               <li><a href="https://github.com/Azeebcoder" target="_blank"><i class="fa-brands fa-github"></i></a></li>
